@@ -1,6 +1,13 @@
 # データセットの説明
-HumanEvalの全件を、以下の10個のLLMに回答させた際のpass@1の結果より、モデル全体の正解率が約68%(easy)、約46%(middle)、約15%(hard)となるよう10問ずつ問題を選定しました。
+HumanEvalの全件を、10個のLLMに回答させた際のpass@1の結果より、モデル全体の正解率が約68%(easy)、約46%(middle)、約15%(hard)となるよう10問ずつ問題を選定しました。
 ただし、実験環境等でモデル評価結果が変化する場合があります。ご了承ください。
+
+## データ形式
+- task_id: identifier for the data sample
+- prompt: input for the model containing function header and docstrings
+- canonical_solution: solution for the problem in the prompt
+- test: contains function to test generated code for correctness
+- entry_point: entry point for test
 
 ## 選定に用いたモデル
 
