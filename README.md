@@ -21,7 +21,7 @@ HumanEvalと同様の形式である。
 - CodeLlama: meta-llama/CodeLlama-7B-Instruct-hf
 - OpenCoder: infly/OpenCoder-8B-Instuct
 - LLM-jp-3: llm-jp/llm-jp-3-1.8b-instruct
-- Llama-3-Swallow: Llama-3-Swallow-8B-Instruct-v0.1
+- Llama-3-Swallow: tokyotech-llm/Llama-3-Swallow-8B-Instruct-v0.1
 - chico: NaoS2/tinycodellama-jp-0.6b-20k-2
 
 実験環境等でモデル評価結果が変化する場合があります。
