@@ -8,7 +8,7 @@ Then, 10 problems were selected from each difficulty level.
 - humaneval_10_easy.jsonl: Pass rate approximately 68%
 - humaneval_10_middle.jsonl: Pass rate approximately 46%
 - humaneval_10_hard.jsonl: Pass rate approximately 15%
-- 
+  
 ## Format of Each Dataset
 The format is the same as that of HumanEval.
 
@@ -17,7 +17,7 @@ The format is the same as that of HumanEval.
 - `canonical_solution`: solution for the problem in the prompt
 - `test`: contains function to test generated code for correctness
 - `entry_point`: entry point for test
-- 
+  
 ## Models Used for Difficulty Classification
 - GPT-4o-mini: gpt-4o-mini-2024-07-18
 - Llama3: meta-llama/Meta-Llama-3-8B-Instruct
